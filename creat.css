@@ -1,0 +1,732 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+@import url(https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;800;900&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+@font-face {
+  font-family: "GothamBook";
+  src: url(fronts/Gotham-Book.ttf);
+}
+@font-face {
+  font-family: "Myriad Pro";
+  src: url(fronts/MyriadPro-Regular.ttf);
+}
+@font-face {
+  font-family: "GothamBold";
+  src: url(fronts/Gotham-Bold.ttf);
+}
+@font-face {
+  font-family: "GothamMedium";
+  src: url(fronts/Gotham-Medium.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  margin: 0;
+  padding: 0;
+} 
+.startPage {
+  height: 880px;
+  width: 1600px;
+  background-image: url(imgs/startPageImg.jpg);
+  display: flex;
+  flex-direction: column;
+}
+ .navigatPanel {
+  width: 1600px;
+  height: 116px;
+  display: flex;
+  border-bottom: 2px solid #757575;
+} 
+ .logoBlock {
+  height: 116px;
+  width: 515px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoBlock__img {
+  width: 79px;
+  height: 79px;
+  position: relative;
+}
+.logoBlock__img-front {
+  width: 67px;
+  height: 67px;
+  background-image: url(imgs/logoFront.jpg);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+.logoBlock__img-back {
+  width: 67px;
+  height: 67px;
+  background-image: url(imgs/logoBack.jpg);
+  position: absolute;
+  left: 13px;
+  top: 13px;
+  z-index: 1;
+} 
+ .navigetMenuBlock {
+  height: 116px;
+  width: 702px;
+} 
+ .navigetMenu_nav {
+  height: 116px;
+  margin-top: 55px;
+}
+.navigetMenu__ul {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+} 
+ .navigetMenu__li {
+  display: inline-block;
+}
+.navigetMenu__href {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 34px;
+}
+.navigetMenu__href:hover {
+  border-bottom: 4px solid #11749e;
+} 
+ .startPage__contect {
+  width: 832px;
+  height: 766px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+} 
+ .startPage__textBlock h1 {
+  margin: 0;
+  padding: 0;
+  
+  text-align: center;
+  
+  font-size: 152.54px;
+  font-family: "GothamBold";
+  color: rgb(245, 245, 245);
+  
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+} 
+ .startPage__textBlock pre {
+  font-size: 24.79px;
+  font-family: "GothamMedium";
+  color: rgb(17, 116, 158);
+  text-transform: uppercase;
+  line-height: 2.065;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+} 
+ .startPage__scroolButten {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;
+  margin-top: 105px;
+}
+.startPage__scroolButten p {
+  font-size: 13px;
+  font-family: "Myriad Pro";
+  color: rgb(245, 245, 245);
+  line-height: 1.692;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.scroolButten {
+  height: 33px;
+  width: 33px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgba(128, 128, 128, 0);
+  cursor: pointer;
+  color: rgb(245, 245, 245);
+  text-align: center;
+  font-size: 25px;
+  transform: rotate(90deg);
+}
+
+
+
+.AwesomeAgencyBlock {
+  width: 1600px;
+  height: 740px;
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  background-image: url(imgs/Rectangle.jpg);
+}
+.AwesomeAgency__textBlock {
+  width: 1170px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.AwesomeAgency__text {
+  font-size: 37.55px;
+  font-family: "GothamMedium";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 70px;
+} 
+ .AwesomeAgency__textLog {
+  font-size: 247.18px;
+  font-family: "Roboto";
+  color: rgba(255, 255, 255, 0.18);
+  font-weight: bold;
+  line-height: 0.852;
+  text-align: center;
+  position: absolute;
+  top: 75px;
+  margin: 0;
+}
+.AwesomeAgency__informItemsBlock {
+  width: 1170px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.AwesomeAgency__informItem {
+  width: 270px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 15px;
+}
+.AwesomeAgency__informImg {
+  width: 133px;
+  height: 133px;
+  border-radius: 100%;
+  background: #2e85aa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AwesomeAgency__informTitel {
+  font-size: 18px;
+  font-family: "GothamMedium";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 2;
+  text-align: center;
+  margin: 0;
+}
+.AwesomeAgency__informText {
+  font-size: 15px;
+  font-family: "GothamBook";
+  color: rgb(255, 255, 255);
+  line-height: 1.6;
+  text-align: center;
+  margin: 0;
+}
+ .companiInformations {
+  width: 1600px;
+  height: 900px;
+  display: flex;
+  flex-wrap: wrap;
+} 
+ .companiInformations__notesText-black {
+  width: 800px;
+  height: 450px;
+  background: #222222;
+}
+.companiInformations__notesText-black-conteiner {
+  height: 450px;
+  width: 585px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.notesText__date {
+  font-size: 13px;
+  font-family: "GothamBook";
+  color: rgb(255, 255, 255);
+  line-height: 1.846;
+  text-align: left;
+}
+.notesText__topic {
+  font-size: 25px;
+  font-family: "GothamMedium";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.44;
+  text-align: left;
+}
+.notesText__text {
+  font-size: 15px;
+  font-family: "GothamBook";
+  color: rgb(255, 255, 255);
+  line-height: 1.6;
+  text-align: left;
+} 
+
+.companiInformations__notesImgFirst {
+  width: 800px;
+  height: 450px;
+  background-image: url(imgs/notesFotoOne.jpg);
+}
+
+.companiInformations__notesImgSecond {
+  width: 800px;
+  height: 450px;
+  background-image: url(imgs/notesFotoTwo.jpg);
+}
+.companiInformations__notesText-white {
+  width: 800px;
+  height: 450px;
+  background: #f3f3f3;
+}
+.companiInformations__notesText-white-conteiner {
+  height: 450px;
+  width: 719px;
+  margin-left: 81px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.notesText-white {
+  color: #222222;
+}
+
+
+.letsBlog {
+  width: 1600px;
+  height: 1020px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+.letsBlogText {
+  width: 1170px;
+  height: 410px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  justify-content: flex-start;
+}
+.letsBlogText__topicBack {
+  position: absolute;
+  font-size: 247.18px;
+  font-family: "GothamBold";
+  color: rgba(34, 34, 34, 0.18);
+  font-weight: bold;
+  line-height: 0.852;
+  text-align: center;
+  margin: 0;
+  top: 80px;
+}
+.letsBlogText__topic {
+  margin: 164px 0 79px 0;
+  font-size: 37.55px;
+  font-family: "GothamMedium";
+  color: rgb(34, 34, 34);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+.letsBlogText__about {
+  font-size: 30px;
+  font-family: "GothamBook";
+  color: rgb(34, 34, 34);
+  line-height: 1.231;
+  text-align: center;
+}
+
+.letsBlogItemsBlock {
+  width: 1170px;
+  height: 610px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.letsBlogItem {
+  width: 270px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.letsBlogItem__topic {
+  font-size: 18px;
+  font-family: "GothamMedium";
+  color: rgb(17, 116, 158);
+  text-transform: uppercase;
+  line-height: 2;
+  text-align: center;
+}
+.letsBlogItem__text {
+  font-size: 15px;
+  font-family: "GothamBook";
+  color: rgb(34, 34, 34);
+  line-height: 1.6;
+  text-align: center;
+  margin: 0;
+}
+.NotesBlock-blue {
+  width: 1600px;
+  height: 355px;
+  background: #11749e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.NotesBlockItem {
+  width: 570px;
+  height: 91px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.NotesBlockItem__text {
+  font-size: 15px;
+  font-family: "GothamBook";
+  color: rgb(255, 255, 255);
+  line-height: 1.6;
+  text-align: left;
+  margin: 0;
+}
+
+
+.inuDogPhone {
+  width: 1600px;
+  height: 850px;
+  background-image: url(imgs/phoneBackgraund.jpg);
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.inuDogPhoneImg__contentImg {
+  position: absolute;
+  top: 99px;
+  left: 919px;
+}
+
+.inuDogPhoneInformations__conteiner {
+  width: 500px;
+  height: 850px;
+  margin-left: 215px;
+  display: flex;
+  flex-direction: column;
+}
+.inuDogPhoneInformations_titel {
+  font-size: 25px;
+  font-family: "GothamMedium";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.44;
+  text-align: left;
+  margin-top: 228px;
+}
+.inuDogPhoneInformations_text {
+  font-size: 15px;
+  font-family: "GothamBook";
+  color: rgb(255, 255, 255);
+  line-height: 1.6;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 57px;
+}
+.inuDogPhoneInformations_sticOne {
+  width: 370px;
+  height: 40px;
+  background: #11749e;
+  font-size: 15px;
+  font-family: "GothamMedium";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+.inuDogPhoneInformations_sticTwo {
+  width: 400px;
+  height: 40px;
+  background: #11749e;
+  font-size: 15px;
+  font-family: "GothamMedium";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+.inuDogPhoneInformations_sticThree {
+  width: 430px;
+  height: 40px;
+  background: #11749e;
+  font-size: 15px;
+  font-family: "GothamMedium";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+.ourTeam {
+  width: 1600px;
+  height: 946px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.ourTeam__conteiner {
+  width: 1170px;
+  height: 945px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ourTeamTitel__BackWord {
+  font-size: 247.18px;
+  font-family: "Roboto";
+  color: rgba(34, 34, 34, 0.18);
+  font-weight: bold;
+  line-height: 0.852;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 69px;
+  left: 726px;
+}
+
+
+.ourTeamTitel {
+  width: 1170px;
+  height: 405px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ourTeamTitel__topic {
+  font-size: 37.55px;
+  font-family: "GothamMedium";
+  color: rgb(34, 34, 34);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 137px;
+  margin-bottom: 107px;
+}
+.ourTeamTitel__about {
+  font-size: 30px;
+  font-family: "GothamBook";
+  color: rgb(34, 34, 34);
+  line-height: 1.231;
+  text-align: center;
+}
+.ourTeamItemsBlock {
+  width: 1170px;
+  height: 405px;
+  display: flex;
+  justify-content: space-around;
+}
+.ourTeamItem {
+  width: 270px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+.ourTeamItem__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.ourTeamItem__aboutBlock {
+  width: 217px;
+  height: 78px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  background: white;
+}
+.ourTeamItem__name {
+  font-size: 20px;
+  font-family: "GothamMedium";
+  color: rgb(17, 116, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin: 0;
+}
+.ourTeamItem__positions {
+  font-size: 15px;
+  font-family: "GothamMedium";
+  color: rgb(0, 0, 0);
+  line-height: 1.6;
+  text-align: center;
+  margin: 0;
+}
+.formSection {
+  width: 1600px;
+  height: 853px;
+  background-image: url(imgs/formSectionBack.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.formSection__conteiner {
+  width: 1170px;
+  height: 397px;
+  display: flex;
+  justify-content: center;
+ 
+}
+.formSection__titel {
+  margin-top: 226px;
+}
+.formSection__titel-text {
+  font-size: 37.55px;
+  font-family: "GothamMedium";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+}
+.formSection__BackWord {
+  font-size: 247.18px;
+  font-family: "Roboto";
+  color: rgba(245, 237, 237, 0.18);
+  font-weight: bold;
+  line-height: 0.852;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 149px;
+}
+.formsBlock {
+  width: 1170px;
+  height: 456px;
+  display: flex;
+
+}
+.formsBlock__form {
+  width: 1170px;
+  height: 456px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+}
+.MessageUser {
+  width: 352px;
+  height: 47px;
+  padding: 0 0 0 16px;
+  border: 2px solid white;
+  font-size: 15px;
+  font-family: "GothamBook";
+  color: rgb(255, 255, 255);
+  line-height: 2.4;
+  text-align: left;
+  background: none;
+  border-radius: 0;
+  margin-right: 18px;
+}
+
+.MessageUser__textarea {
+  width: 1150px;
+  height: 153px;
+  padding: 0 0 0 16px;
+  border: 2px solid white;
+  font-size: 15px;
+  font-family: "GothamBook";
+  color: rgb(255, 255, 255);
+  line-height: 2.4;
+  text-align: left;
+  background: none;
+  border-radius: 0;
+  margin-top: 40px;
+  margin-bottom: 47px;
+  margin-right: 18px;
+  resize: none;
+}
+.MessageUser__button {
+  width: 230px;
+  height: 67px;
+  background: #11749e;
+  font-size: 24px;
+  font-family: "GothamMedium";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+}
+.mapSection {
+  width: 1600px;
+  height: 336px;
+  background-image: url(imgs/mapfooter.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.footerContent {
+  height: 114px;
+  width: 1600px;
+  background: #222222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.footerContent__text {
+  font-size: 13px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  /* line-height: 2.769; */
+  text-align: left;
+  height: 15px;
+  margin: 0;
+  margin-left: 115px;
+  margin-right: 115px;
+}
